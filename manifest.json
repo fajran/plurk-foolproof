@@ -1,0 +1,11 @@
+{
+    "name": "Plurk Fool Proof",
+    "version": "0.1",
+    "description": "Hide 'like' and 'promote' links",
+    "content_scripts": [
+        {
+            "matches": ["http://www.plurk.com/*"],
+            "css": ["style.css"]
+        }
+    ]
+}
